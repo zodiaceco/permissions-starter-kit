@@ -325,22 +325,22 @@
   dependencies:
     "@types/node" "*"
 
-"@zodiaceco/api-types@^1.9.2":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@zodiaceco/api-types/-/api-types-1.10.0.tgz#bcbc8f7ad322b7de3723da7f968937031467a179"
-  integrity sha512-xZYqJixcrtV/a9qhLSVpS50RevjZBgpyn0S9dJEWzUJniti3DaVDeL6smQkUrFDQpFu22yDWrmr/A1vSbo+Ubg==
+"@zodiaceco/api-types@^1.12.0":
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/@zodiaceco/api-types/-/api-types-1.12.0.tgz#779466c8c4f7703f6271c9903d888032bcd3b795"
+  integrity sha512-bKLFsUu9ja8e6LyzDRISs0I8VnYPguj9F6vjwocpcGwZszmMaA7q/XbKyHtGnqhfqj3wZZOUHMnaR+2kP+ennA==
   dependencies:
     "@epic-web/invariant" "^1.0.0"
     zod "^4.5.4"
     zodiac-roles-sdk "^3.4.4 || ^4.0.0"
 
-"@zodiaceco/sdk@^2.2.0":
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/@zodiaceco/sdk/-/sdk-2.2.0.tgz#19dd4a6c18123b38be07728edccc79804d7e32b7"
-  integrity sha512-fc7mZ10Zur/g+N1hV+Ivicx9hGD8ajTh0V0cKFbGuBka1G071dBui9TnmigLjNQMFTrPER3ONdc9g1t5MQgUig==
+"@zodiaceco/sdk@^2.7.0":
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/@zodiaceco/sdk/-/sdk-2.7.0.tgz#215429640feaa73d188435a59e4b7ab6fd3faf7a"
+  integrity sha512-2Ccx6LBmFqklbqjDV8pVyNxIaUHHAn1Cnzq14DalpIVOEJ9P/GobraDI4dq6eAShbyHkkeY0DjoIjcKtL7h0GA==
   dependencies:
     "@epic-web/invariant" "1.0.0"
-    "@zodiaceco/api-types" "^1.9.2"
+    "@zodiaceco/api-types" "^1.12.0"
     commander "^14.0.3"
     defi-kit "^2.26.12"
     dotenv "^17.4.2"

@@ -12,7 +12,7 @@
     "apply": "tsx .lib/scripts/apply.ts"
   },
   "dependencies": {
-    "@zodiaceco/sdk": "^2.2.0",
+    "@zodiaceco/sdk": "^2.7.0",
     "dotenv": "^17.0.0",
     "ethers": "^6.13.4",
     "open": "^11.0.0"

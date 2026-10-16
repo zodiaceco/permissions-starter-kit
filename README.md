@@ -93,7 +93,6 @@ export default defineConfig({
 
 1. Save your changes in the zodiac.config.ts file and run the following command in the terminal window:  
    `yarn setup`  
-   The first time you run it, the CLI authorizes this directory with your [Zodiac organization](https://app.zodiac.eco): it opens a browser to mint an API key and saves it to `.env`.
    ABIs are stored in [abis/](./abis). If a contract isn't verified, the command prints the path where you should paste its ABI JSON by hand before running it again.
 2. Open the VSCode command palette:  
    Mac: `Cmd` + `Shift` + `P`  
@@ -185,7 +184,10 @@ For example, to apply the role `eth_wrapping` to a mainnet Roles mod at address 
 yarn apply eth_wrapping eth:0x1234123412341234123412341234123412341234
 ```
 
+The first time you run it, the command authorizes this directory with your [Zodiac organization](https://app.zodiac.eco): it opens a browser to mint an API key and saves it to `.env`.
+
 The command refreshes your organization data and contract ABIs, type-checks your roles, then pushes the update to your Zodiac workspace and prints a link to the Zodiac app, where you can review the changes and deploy them by signing the transaction.
+The update links back to your repository (the web page of your `origin` git remote); set `ZODIAC_SOURCE` to name a different one.
 
 Applying permissions for the first time will create a new role.
 Subsequent applications will update the existing role, efficiently removing, updating, and adding permissions so that the role configuration on chain accurately reflects the permissions defined in code.
